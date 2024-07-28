@@ -1,0 +1,1 @@
+import{_ as e}from"./index-CI_QF3t5.js";import{a4 as r,a2 as o}from"./vue-BG1emjmP.js";import"./antd-B7NuRx5N.js";const t={};function c(n,a){return r(),o("div",null," 管理员拥有访问权限 ")}const f=e(t,[["render",c]]);export{f as default};

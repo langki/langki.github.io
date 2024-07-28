@@ -1,0 +1,1 @@
+import{_ as o}from"./index-CI_QF3t5.js";import{K as r}from"./antd-B7NuRx5N.js";import{a4 as e,ab as s}from"./vue-BG1emjmP.js";const c={};function n(a,_){const t=r;return e(),s(t,{status:"404",title:"页面配置错误","sub-title":"动态配置页面不存在，请检查配置项"})}const i=o(c,[["render",n]]);export{i as default};
