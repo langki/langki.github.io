@@ -1,1 +1,0 @@
-import{_ as e}from"./index-88P_9uxT.js";import{a4 as r,a2 as o}from"./vue-BG1emjmP.js";import"./antd-D0j5ONzc.js";const t={};function c(n,a){return r(),o("div",null," 普通用户有权查看 超级管理员同样拥有权限 ")}const m=e(t,[["render",c]]);export{m as default};
