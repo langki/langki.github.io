@@ -1,0 +1,1 @@
+import{_ as t}from"./index-CEeQ7zLs.js";import{Y as o}from"./antd-DFqyiQ28.js";import{a4 as n,a2 as r,G as a,k as c}from"./vue-BG1emjmP.js";const s={};function _(m,p){const e=o;return n(),r("div",null,[a(" Menu1 "),c(e)])}const d=t(s,[["render",_]]);export{d as default};
