@@ -1,166 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <script src="/_app.config.js" type="module"></script>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Antdv Pro</title>
-    <script>
-      (function () {
-        const prefersDark =
-          window.matchMedia &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches;
-        const setting = localStorage.getItem("vueuse-color-scheme") || "auto";
-        if (setting === "dark" || (prefersDark && setting !== "light"))
-          document.documentElement.classList.toggle("dark", true);
-      })();
-    </script>
-    <script
-      type="module"
-      crossorigin=""
-      src="/assets/index-CEeQ7zLs.js"
-    ></script>
-    <link rel="modulepreload" crossorigin="" href="/assets/vue-BG1emjmP.js" />
-    <link rel="modulepreload" crossorigin="" href="/assets/antd-DFqyiQ28.js" />
-    <link rel="stylesheet" crossorigin="" href="/assets/index-CQSgVEHi.css" />
-    <link rel="modulepreload" href="/assets/401-BWKP67ue.js" />
-    <link rel="modulepreload" href="/assets/403-DywHDnmW.js" />
-    <link rel="modulepreload" href="/assets/403-liNgtQZt.js" />
-    <link rel="modulepreload" href="/assets/404-BtN4FvIk.js" />
-    <link rel="modulepreload" href="/assets/500-skE_DdFc.js" />
-    <link rel="modulepreload" href="/assets/active-chart-CWSOjpsZ.js" />
-    <link rel="modulepreload" href="/assets/admin-A53DPsOA.js" />
-    <link rel="modulepreload" href="/assets/applications-CBzMTU5B.js" />
-    <link rel="modulepreload" href="/assets/articles-CfFfwImx.js" />
-    <link rel="modulepreload" href="/assets/basic-list-DCR2mMZP.js" />
-    <link rel="modulepreload" href="/assets/card-list-C6EakpQY.js" />
-    <link
-      rel="modulepreload"
-      href="/assets/category.vue_vue_type_style_index_0_lang-DGiZY-xk.js"
-    />
-    <link rel="modulepreload" href="/assets/center-C6pEV0Hg.js" />
-    <link rel="modulepreload" href="/assets/china-BPXA1fkd.js" />
-    <link rel="modulepreload" href="/assets/common-Xv2mS9SE.js" />
-    <link rel="modulepreload" href="/assets/component-error-Dp6PA9pP.js" />
-    <link rel="modulepreload" href="/assets/context-bJvQG1WA.js" />
-    <link rel="modulepreload" href="/assets/crud-table-Cwuh6n6g.js" />
-    <link rel="modulepreload" href="/assets/crud-table-modal-B1mgUBw6.js" />
-    <link rel="modulepreload" href="/assets/crud-table-modal-tJFaKfQh.js" />
-    <link
-      rel="modulepreload"
-      href="/assets/crud-table-modal.vue_vue_type_script_setup_true_lang-DN4RWVcP.js"
-    />
-    <link
-      rel="modulepreload"
-      href="/assets/crud-table-modal.vue_vue_type_script_setup_true_lang-tqkZk55Q.js"
-    />
-    <link rel="modulepreload" href="/assets/custom-map-DeCUU_Xl.js" />
-    <link rel="modulepreload" href="/assets/editable-link-group-DlQRnA6X.js" />
-    <link rel="modulepreload" href="/assets/en-US-CkeLbb72.js" />
-    <link rel="modulepreload" href="/assets/error-Dsoi0JSX.js" />
-    <link rel="modulepreload" href="/assets/fail-D6McDfCg.js" />
-    <link rel="modulepreload" href="/assets/home-b_r7GsSM.js" />
-    <link rel="modulepreload" href="/assets/iframe-C4ykHBA5.js" />
-    <link rel="modulepreload" href="/assets/index-bVLlyvvn.js" />
-    <link rel="modulepreload" href="/assets/index-BxGGnAHj.js" />
-    <link rel="modulepreload" href="/assets/index-BYv2R67c.js" />
-    <link rel="modulepreload" href="/assets/index-C2So3Aqb.js" />
-    <link rel="modulepreload" href="/assets/index-CJv8QM-K.js" />
-    <link rel="modulepreload" href="/assets/index-CoyCAp3W.js" />
-    <link rel="modulepreload" href="/assets/index-CpKMHR70.js" />
-    <link rel="modulepreload" href="/assets/index-CuLuxSHw.js" />
-    <link rel="modulepreload" href="/assets/index-Diy1rVQn.js" />
-    <link rel="modulepreload" href="/assets/index-IcC14pkv.js" />
-    <link rel="modulepreload" href="/assets/index-wEcw_rlV.js" />
-    <link
-      rel="modulepreload"
-      href="/assets/index.vue_vue_type_script_setup_true_lang-Bh2nhDkF.js"
-    />
-    <link
-      rel="modulepreload"
-      href="/assets/index.vue_vue_type_style_index_0_lang-ZmExum6B.js"
-    />
-    <link rel="modulepreload" href="/assets/introduce-row-Bx6YZHJA.js" />
-    <link
-      rel="modulepreload"
-      href="/assets/introduce-row.vue_vue_type_script_setup_true_lang-B3sy9Rqa.js"
-    />
-    <link rel="modulepreload" href="/assets/list-C_J3rc1R.js" />
-    <link rel="modulepreload" href="/assets/list-D2kZdxo2.js" />
-    <link rel="modulepreload" href="/assets/loading-DkR0CiJn.js" />
-    <link rel="modulepreload" href="/assets/login-1hi0ognK.js" />
-    <link rel="modulepreload" href="/assets/logo-Ft4BtHHg.js" />
-    <link rel="modulepreload" href="/assets/menu1-B2_-3beJ.js" />
-    <link rel="modulepreload" href="/assets/menu1-CQGm_Z-Q.js" />
-    <link rel="modulepreload" href="/assets/menu1-GBh1RcAa.js" />
-    <link rel="modulepreload" href="/assets/menu2-Cg1TLqeT.js" />
-    <link rel="modulepreload" href="/assets/menu2-CXSGK5SB.js" />
-    <link rel="modulepreload" href="/assets/menu2-CYde4fO9.js" />
-    <link rel="modulepreload" href="/assets/number-info-DjBs7WiB.js" />
-    <link rel="modulepreload" href="/assets/offline-data-CmVrH-jH.js" />
-    <link rel="modulepreload" href="/assets/projects-DnRwfkOf.js" />
-    <link rel="modulepreload" href="/assets/proportion-sales-jtVfCEIG.js" />
-    <link rel="modulepreload" href="/assets/query-breakpoints-CChVGaVn.js" />
-    <link rel="modulepreload" href="/assets/redirect-5mhhB3CL.js" />
-    <link rel="modulepreload" href="/assets/repository-form-R0gv78JD.js" />
-    <link
-      rel="modulepreload"
-      href="/assets/repository-form.vue_vue_type_script_setup_true_lang-DJtF2-hz.js"
-    />
-    <link rel="modulepreload" href="/assets/route-view-DKXVLCLS.js" />
-    <link rel="modulepreload" href="/assets/route-view-DxGSCGAG.js" />
-    <link
-      rel="modulepreload"
-      href="/assets/route-view.vue_vue_type_script_setup_true_lang-B6P3CbFk.js"
-    />
-    <link rel="modulepreload" href="/assets/sales-card-xpo_-sZp.js" />
-    <link rel="modulepreload" href="/assets/settings-C5n6gpHu.js" />
-    <link rel="modulepreload" href="/assets/success-DpOvw3jz.js" />
-    <link rel="modulepreload" href="/assets/table-list-BJ1V6hQt.js" />
-    <link rel="modulepreload" href="/assets/table-query-BeZ8LqSM.js" />
-    <link rel="modulepreload" href="/assets/task-form-U3_5VJIe.js" />
-    <link
-      rel="modulepreload"
-      href="/assets/task-form.vue_vue_type_script_setup_true_lang-CEj-gE0c.js"
-    />
-    <link rel="modulepreload" href="/assets/trend-D9GII1tc.js" />
-    <link rel="modulepreload" href="/assets/user-BJIQMO_J.js" />
-    <link rel="modulepreload" href="/assets/vec2-Jxxlclqr.js" />
-    <link rel="modulepreload" href="/assets/zh-CN-Bjum9Zyd.js" />
-    <link rel="stylesheet" href="/assets/active-chart-DFEFH7oA.css" />
-    <link rel="stylesheet" href="/assets/basic-list-CYNynfOr.css" />
-    <link rel="stylesheet" href="/assets/card-list-BMpQnlG7.css" />
-    <link rel="stylesheet" href="/assets/category-Coa7I0Sg.css" />
-    <link rel="stylesheet" href="/assets/center-vcxCuaYb.css" />
-    <link rel="stylesheet" href="/assets/crud-table-DGYScmx2.css" />
-    <link rel="stylesheet" href="/assets/custom-map-D71j1npa.css" />
-    <link rel="stylesheet" href="/assets/editable-link-group-C-A_Twt2.css" />
-    <link rel="stylesheet" href="/assets/home-DX9eSVzi.css" />
-    <link rel="stylesheet" href="/assets/iframe-D3I215X_.css" />
-    <link rel="stylesheet" href="/assets/index-B7zLDf9y.css" />
-    <link rel="stylesheet" href="/assets/index-BnzWcNm4.css" />
-    <link rel="stylesheet" href="/assets/index-BQnEXXu3.css" />
-    <link rel="stylesheet" href="/assets/index-BSec79kf.css" />
-    <link rel="stylesheet" href="/assets/index-BZw5zvt4.css" />
-    <link rel="stylesheet" href="/assets/index-CtpGO9Wa.css" />
-    <link rel="stylesheet" href="/assets/index-RzKFfKDQ.css" />
-    <link rel="stylesheet" href="/assets/index-XAAbNUOi.css" />
-    <link rel="stylesheet" href="/assets/index-xWwFggZA.css" />
-    <link rel="stylesheet" href="/assets/index-zNSW0HCB.css" />
-    <link rel="stylesheet" href="/assets/introduce-row-Cbk4p9HV.css" />
-    <link rel="stylesheet" href="/assets/list-BMSgrqFU.css" />
-    <link rel="stylesheet" href="/assets/list-Bo_KSmkX.css" />
-    <link rel="stylesheet" href="/assets/login-D4cN3m9V.css" />
-    <link rel="stylesheet" href="/assets/number-info-DeIRvLkH.css" />
-    <link rel="stylesheet" href="/assets/offline-data-Ie--hU1H.css" />
-    <link rel="stylesheet" href="/assets/proportion-sales-DQj4COSh.css" />
-    <link rel="stylesheet" href="/assets/sales-card-jh0YP5zb.css" />
-    <link rel="stylesheet" href="/assets/settings-DPdCSEDY.css" />
-    <link rel="stylesheet" href="/assets/trend-tqfjZ6r-.css" />
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="/loading.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <link rel="icon" type="image/svg+xml" href="./246x0w.webp" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>集方APP</title>
+  <script type="module" crossorigin src="./assets/index-DNHAAw3x.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-wR54ZIQB.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <noscript>
+    This website requires JavaScript to function properly.
+    Please enable JavaScript to continue.
+  </noscript>
+</body>
+
 </html>
