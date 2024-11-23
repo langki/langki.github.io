@@ -1,0 +1,1 @@
+import{_ as e,o,a as s,b as a}from"./index-CaqzKxKh.js";const n={class:"main-header-cont focus-bgimag"},c={__name:"Contact",setup(_){return(r,t)=>(o(),s("div",n,t[0]||(t[0]=[a("h1",null,"CONTACT",-1),a("p",null,"联系我们",-1)])))}},p=e(c,[["__scopeId","data-v-5dff2660"]]);export{p as default};
