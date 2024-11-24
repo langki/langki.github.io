@@ -1,0 +1,1 @@
+import{c as o}from"./consulting-BDBaovPo.js";import{o as r,a as t,m as a,h as n,F as s}from"./index-B5wcG0MG.js";import"./arrow@2x-Cr-fpsUe.js";const _={__name:"governance",setup(c){return(m,e)=>(r(),t(s,null,[e[0]||(e[0]=a(" governance ")),n(o)],64))}};export{_ as default};

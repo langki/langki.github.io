@@ -1,0 +1,1 @@
+import{c as t}from"./consulting-BDBaovPo.js";import{o as a,a as n,m as o,h as r,F as m}from"./index-B5wcG0MG.js";import"./arrow@2x-Cr-fpsUe.js";const _={__name:"management",setup(s){return(c,e)=>(a(),n(m,null,[e[0]||(e[0]=o(" management ")),r(t)],64))}};export{_ as default};
