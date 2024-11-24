@@ -1,0 +1,1 @@
+import{c as r}from"./consulting-CLaJCJB_.js";import{o as t,a as o,m as a,h as s,F as n}from"./index-_fylRmxL.js";import"./arrow@2x-Cr-fpsUe.js";const _={__name:"regulatory",setup(m){return(l,e)=>(t(),o(n,null,[e[0]||(e[0]=a(" regulatory ")),s(r)],64))}};export{_ as default};
