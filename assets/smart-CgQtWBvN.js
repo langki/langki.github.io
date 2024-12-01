@@ -1,1 +1,0 @@
-import{c as e}from"./consulting-BDBaovPo.js";import{o as r,a,m as o,h as s,F as m}from"./index-B5wcG0MG.js";import"./arrow@2x-Cr-fpsUe.js";const _={__name:"smart",setup(n){return(c,t)=>(r(),a(m,null,[t[0]||(t[0]=o(" smart ")),s(e)],64))}};export{_ as default};
